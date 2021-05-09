@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from 'react-dom';
+import './Weather.css';
 
 export default function Weather() {
   let weatherData = {
