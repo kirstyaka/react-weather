@@ -1,7 +1,7 @@
 import React from 'react';
 import { StrictMode } from "react";
 import ReactDOM from 'react-dom';
-import Weather from "./Weather";
+import Weather from './Weather';
 import './Weather.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,4 +19,4 @@ ReactDOM.render(
     <App />
   </StrictMode>,
   rootElement
-);
+)
