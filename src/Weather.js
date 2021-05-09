@@ -148,7 +148,7 @@ export default function Weather() {
         </div>
       </div>
       <footer>
-        <a href="https://github.com/kirstyaka/MyApp">Open-source </a>
+        <a href="https://github.com/kirstyaka/react-weather">Open-source </a>
         by Kirsty Akahoho
       </footer>
     </div>
