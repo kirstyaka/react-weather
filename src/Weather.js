@@ -1,5 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 export default function Weather() {
   let weatherData = {
@@ -25,7 +26,10 @@ export default function Weather() {
                 type="text"
                 placeholder="Enter location"
                 className="search-box"
+                autoFocus="on"
               />
+              
+            
             </div>
 
             <div className="col-1">
@@ -148,10 +152,6 @@ export default function Weather() {
           </div>
         </div>
       </div>
-      <footer>
-        <a href="https://github.com/kirstyaka/react-weather">Open-source </a>
-        by Kirsty Akahoho
-      </footer>
     </div>
   );
 }
