@@ -1,14 +1,18 @@
 .WeatherApp {
-  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   border: 1px solid #dadde1;
   padding: 16px;
   margin: 30px auto;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #35495e;
 }
 
 .WeatherApp form {
   margin-bottom: 25px;
+}
+
+.WeatherApp input.search {
+  margin-right: 20px;
 }
 
 .WeatherApp h1 {
