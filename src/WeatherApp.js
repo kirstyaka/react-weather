@@ -14,7 +14,7 @@ export default function WeatherApp(props) {
         description: response.data.weather[0].description,
         wind: Math.round(response.data.wind.speed),
         humidity: response.data.main.humidity,
-        iconUrl: "http://openweathermap.org/img/wn/03d@2x.png",
+        iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
         date: new Date(response.data.dt * 1000),
         city: response.data.name 
 
