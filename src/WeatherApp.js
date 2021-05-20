@@ -17,7 +17,8 @@ export default function WeatherApp(props) {
         humidity: response.data.main.humidity,
         iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
         date: new Date(response.data.dt * 1000),
-        city: response.data.name 
+        city: response.data.name, 
+        coordinates: response.data.coord
 
     });
   }
@@ -57,7 +58,7 @@ export default function WeatherApp(props) {
         </form>
 
     <WeatherInfo data={weather} />
-    <WeatherForecast />
+    <WeatherForecast coordinates={weather.coordinates} />
         
     </div>
     );
