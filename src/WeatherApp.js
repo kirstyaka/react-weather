@@ -19,7 +19,6 @@ export default function WeatherApp(props) {
         date: new Date(response.data.dt * 1000),
         city: response.data.name, 
         coordinates: response.data.coord
-
     });
   }
 
